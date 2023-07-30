@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css"> <!-- Optional: Add your custom CSS file for styling -->
+</head>
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+    <form action="/signup" method="post"> <!-- Replace "/signup" with the URL for your signup endpoint -->
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+      <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="/login">Sign in</a></p> <!-- Replace "/login" with the URL for your login page -->
+  </div>
+</body>
+</html>
+ 
